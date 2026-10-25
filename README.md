@@ -1,3 +1,7 @@
+
+[![CI](https://github.com/innotelinc/Termix/actions/workflows/ci.yml/badge.svg)](https://github.com/innotelinc/Termix/actions/workflows/ci.yml)
+[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+
 <div align="center">
 
 <img src="./public/icon.svg" width="120" height="120" alt="Termix Logo" />
@@ -21,6 +25,18 @@
 </div>
 
 <br />
+
+## Why Termix
+
+| Problem | Answer |
+| --- | --- |
+| Server tools are one SSH client per tab. | Terminals, files and tunnels share one authenticated console. |
+| Every team has a tool the console does not have. | The plugin API is the extension point instead of a fork. |
+| A management console is a second door into every host. | It sits behind the deployment's SSO and keeps its own audit trail. |
+
+Its place in the stack is [docs/stack.md](docs/stack.md); the canonical
+definition of the shared layers is the
+[Innotel Platform Stack](https://github.com/innotelinc/innotel-platform-stack).
 
 ## Overview
 
